@@ -10,9 +10,6 @@ Final year project sponsored by BMC Software to demonstrate the use case of Bloc
 * **Node.js** v8.4.0 or higher
 * [Download Docker images](http://hyperledger-fabric.readthedocs.io/en/latest/samples.html#binaries)
 
-```
-cd Audit_project
-```
 
 Once you have completed the above setup, you will have provisioned a local network with the following docker container configuration:
 
@@ -24,7 +21,7 @@ Once you have completed the above setup, you will have provisioned a local netwo
 * Crypto material has been generated using the **cryptogen** tool from Hyperledger Fabric and mounted to all peers, the orderering node and CA containers. More details regarding the cryptogen tool are available [here](http://hyperledger-fabric.readthedocs.io/en/latest/build_network.html#crypto-generator).
 * An Orderer genesis block (genesis.block) and channel configuration transaction (mychannel.tx) has been pre generated using the **configtxgen** tool from Hyperledger Fabric and placed within the artifacts folder. More details regarding the configtxgen tool are available [here](http://hyperledger-fabric.readthedocs.io/en/latest/build_network.html#configuration-transaction-generator).
 
-## Running the sample program
+## Running the application
 
 The app can be started using the following setup. The chaincode is written in golang.
 
