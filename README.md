@@ -43,15 +43,13 @@ cd Audit_project
 
 ##### Terminal Window 2
 
-
-In order for the following shell script to properly parse the JSON, you must install ``jq``:
-
-instructions [https://stedolan.github.io/jq/](https://stedolan.github.io/jq/)
-
-With the application started in terminal 1, next, test the APIs by executing the script - **test.sh**:
 ```
-cd Audit_project
+cd front_end
 
-## To use golang chaincode execute the following command
+python app2.py
 
-./test.sh -l golang
+```
+
+##### User Interface via Browser
+
+After this, access the available functions for license and service management via localhost:5000/frontpage 
