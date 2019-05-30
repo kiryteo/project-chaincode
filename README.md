@@ -43,7 +43,7 @@ cd Audit_project
 ```
 cd front_end
 
-python app2.py
+python application.py
 
 ```
 
